@@ -1,0 +1,391 @@
+/* Banner Section */
+.banner {
+    background-image: url("banner-background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner .content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .banner .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .banner .top-subtitle {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  
+  
+  
+  
+  /* Hide the scrollbar */
+  
+  /* Suite Section */
+  .suite {
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .suite .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .suite-description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .suite-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .suite-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .suite-item p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .service-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Facilities Section */
+ /* Facilities Section */
+.facilities {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.facilities .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.facility-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.facility-item {
+  width: 200px;
+  margin: 20px;
+}
+
+.facility-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.facility-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Amenities Section */
+.amenities {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.amenities .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.amenity-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.amenity-list li {
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+/* Reviews Section */
+.reviews {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.reviews .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.review {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.review .reviewer {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review .rating {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.review p {
+  margin-top: 10px;
+}
+
+/* Contact Section */
+
+
+.sec{
+  color: #64748b;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.head{
+  color: #0f1a2c;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  margin-top: 20px;
+}
+
+.rooms{
+    place-content: center;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.types{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 20px 0 20px;
+  align-items: center;
+}
+.tp{
+  width: calc(33.33% - 30px); /* Adjust based on the number of items per row */
+  align-items: center;
+  position: relative;
+  margin-bottom: 0px;
+}
+.tp img{
+    width: 400px;
+    height: 50vh;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.detail{
+    width:80%;
+    text-align:initial;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    background-color: white;
+    z-index: 1;
+    z-index: 1;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    position: relative;
+    padding: 15px 7px;
+}
+.detail h4{
+    font-size: 1.3rem;
+}
+.detail p{
+    display:table-cell;
+    padding-top: 10px;
+}
+.desc{
+    color:#64748b;
+    font-size: 1rem;
+}
+.price{
+    color: #f6ac0f;
+}
+
+
+.intro {
+  position: relative;
+  isolation: isolate;
+  background-color: #0f1a2c;
+  height: 73vh;
+  display: flex;
+  padding: 0;
+}
+
+/* .intro::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  height: 100%;
+  width: 60%;
+  background-color: #1185d3;
+  z-index: -1;
+} */
+.intro__content{
+    float: left;
+    padding: 2rem 0 0 0;
+    background-color: #0f1a2c;
+    height:100%;
+    width: 37%;
+}
+.intro__container {
+  /* display: grid; */
+  /* gap: 4rem 2rem; */
+}
+
+.intro__container .section__subheader {
+  color: #1185d3;
+  font-size: 2rem;
+}
+
+.intro__container :is(.section__header, .section__description) {
+  margin-bottom: 0;
+  color:#ffffff;
+}
+
+.intro__video {
+  /* position:absolute; */
+  background-color:hwb(204 26% 58%);
+  float: right;
+  width: 60vw;
+  height: 60vh;
+  margin: 0;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.section__container {
+  max-width: var(--max-width);
+  margin: 0;
+  padding: 0 0 0 1rem;
+}
+
+.section__subheader {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.section__header {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.section__description {
+  margin-top: 1rem;
+  color: var(--text-light);
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #1185d3;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: #2059d4;
+}
+
+
+.services {
+  padding: 5% 5%; 
+}
+
+.service-list ul li {
+  margin-bottom: 20px;
+  width: calc(33.33% - 40px); 
+  display: inline-block; 
+  vertical-align: top; 
+  margin-right: 20px; 
+  box-sizing: border-box; 
+  text-align: center; 
+}
+
+.service-list ul li:last-child {
+  margin-right: 0; 
+}
+
+.service-list ul li i {
+  margin-right: 0; 
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px; 
+}
+
+.service-list ul li .description {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.section-title {
+  text-align: center;
+  color: #0f1a2c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,33 @@
+.features{
+    padding: 2%;
+    display:grid;
+    gap:10px;
+    width:100%;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+    justify-content: center; 
+}
+.ft{
+    width:30vw;
+    text-align: initial;
+    margin: 5% 0;
+}
+.ft h6{
+    font-size: 1.3rem;
+    color: #0f1a2c;
+    margin-bottom: 3%;
+}
+.ft p{
+    font-size: 1.1rem;
+    color: #64748b;
+}
+.sec{
+    color: #64748b;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.head{
+    color: #0f1a2c;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-top: 20px;
+}
